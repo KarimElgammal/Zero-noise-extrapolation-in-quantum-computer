@@ -1,6 +1,6 @@
 # Zero-Noise Extrapolation (ZNE) implementation for error mitigation in quantum simulations
 
-This repository contains an implementation of Zero-Noise Extrapolation (ZNE) for error mitigation in quantum circuits using `Qiskit`. It can be good example for learning purposes, but you should consider a dedicated package like [mitiq](https://mitiq.readthedocs.io/en/stable/guide/zne-5-theory.html) for that. The approach here uses unitary folding to simulate the noise and then extrapolates the results to estimate the outcomes.
+This repository contains an attempt for the implementation of Zero-Noise Extrapolation (ZNE) for error mitigation in quantum circuits using `Qiskit`. It can be good example for learning purposes, but you should consider a dedicated package like [mitiq](https://mitiq.readthedocs.io/en/stable/guide/zne-5-theory.html) for that. The approach here uses unitary folding to simulate the noise and then extrapolates the results to estimate the outcomes.
 
 
 ## The repository files are:
