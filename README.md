@@ -31,7 +31,7 @@ To use these functions, import them into your Python script:
 
 ```python
 from aux_functions import generate_GHZ
-ghz_circuit = generate_GHZ(3) #generating 3qubit GHZ circuit
+ghz_circuit = generate_GHZ(3) #generate 3qubit GHZ circuit
 ```
 ### packages needed
  `qiskit`, `qiskit-aer`, `numpy`, `scipy`
