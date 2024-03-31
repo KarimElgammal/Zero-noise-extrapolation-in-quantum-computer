@@ -12,7 +12,7 @@ This repository contains an attempt for the implementation of Zero-Noise Extrapo
 - [`aux_functions.py`](aux_functions.py): This file contains auxiliary functions for generating quantum circuits, creating a noise model, running circuits on a simulator, and plotting the results.
 
 ## Functions
-
+The functions in [`aux_functions.py`](aux_functions.py) are:
 - `depolarizing_noise_model(p_error_1q, p_error_2q)`: Creates a noise model with depolarizing error.
 - `generate_GHZ(n_qubits)`: Generates a GHZ state with n qubits.
 - `generate_layered_circuit(num_layers, num_qubits, rotation_angles)`: Generates a layered quantum circuit with num_layers and num_qubits.
